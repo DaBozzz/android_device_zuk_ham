@@ -105,7 +105,7 @@ PRODUCT_PACKAGES += \
 
 #Doze
 PRODUCT_PACKAGES += \
-    HamDoze
+    ZukDoze
 
 # Filesystem
 PRODUCT_PACKAGES += \
