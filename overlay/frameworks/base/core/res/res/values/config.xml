@@ -271,12 +271,12 @@
     <!-- Support double tap to wake -->
     <bool name="config_supportDoubleTapWake">true</bool>
 
-    <!-- Screen brightness when dozing. -->
-    <integer name="config_screenBrightnessDoze">5</integer>
-
-    <!-- Dream of notifications -->
+ <!-- Doze mode -->
     <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
+    <integer name="config_screenBrightnessDoze">5</integer>
     <bool name="config_dozeAfterScreenOff">true</bool>
+    <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
+    <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
 
     <!-- Configure mobile tcp buffer sizes in the form:
          rat-name:rmem_min,rmem_def,rmem_max,wmem_min,wmem_def,wmem_max
